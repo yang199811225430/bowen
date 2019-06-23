@@ -1,0 +1,15 @@
+1558661953590	mozrunner::runner	INFO	Running command: "E:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ycx\\AppData\\Local\\Temp\\rust_mozprofile.g2YodcUtky6z"
+1558661955894	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1558661955895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1558661955895	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1558661959008	Marionette	INFO	Listening on port 51330
+1558661959392	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 14144, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1558039115/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558039115/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12968, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1558039115/build/src/ipc/chromium/sr1558661961710	Marionette	INFO	Stopped listening on port 51330
+[GPU 1640, Chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+me_ChildThread]
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

@@ -1,0 +1,57 @@
+!/usr/bin/python
+-*- coding:utf-8 -*-
+a=int(input('请输入总资产'))
+c=''
+goods=[
+    {'0':'电脑','prince':1999},
+    {'1':'鼠标','prince':10},
+    {'2':'游艇','prince':20},
+    {'3':'美女','prince':998},
+]
+print(goods)
+p = len(goods)
+while True:
+    q = int(input('序号'))
+    if  p >= q:
+        c=list(c)
+        v=goods[q]
+        print(v)
+        c.append(v)
+        print(c)
+    else:
+        break
+print(c)
+b=len(c)
+while True:
+    q=input('')
+    g=0
+    if q=='移除商品':
+        print(c)
+        e=int(input(''))
+        c.pop(e)
+        print(c)
+    elif q=='购买':
+        for i in c:
+            w=i['prince']
+            g+=w
+        print(g)
+        while True:
+            if a>=g:
+                a = a - g
+                print('购买成功，余额{}元'.format(a))
+                break
+            if a<g and a!=0:
+                print('余额不足，请充值')
+                if input()=='充值':
+
+                    y=int(input(''))
+                    a=y+a
+                    print('充值成功，余额{}元'.format(a))
+        break
+
+
+
+
+
+
+
